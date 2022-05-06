@@ -12,7 +12,6 @@ World");
 
 // [4] 'Hello' (단, 작은 따옴표도 함께 출력한다.)
 console.log("'Hello'");
-console.log("'Hello'");
 console.log(`'Hello'`);
 
 // [5] "Hello World" (단, 큰 따옴표도 함께 출력한다.)
