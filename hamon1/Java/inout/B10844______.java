@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class B10844 {
+public class B10844______ {
     static Long dp[][];
     static int num;
 
