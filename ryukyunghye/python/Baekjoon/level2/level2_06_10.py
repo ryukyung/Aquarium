@@ -36,23 +36,32 @@ for i in range(3, n):
     list0[i] = max(list0[i-1], list0[i-3]+dp[i-1]+dp[i], list0[i-2]+dp[i])
 print(list0[n-1])
 
-# [11053] 가장 긴 증가하는 부분 수열
-A = int(input())
-Ai = list(map(int, input().split()))
-dp = [1] * A
+n = int(input())
+dp = []
+for i in range(n):
+    dp.append(int(input()))
+drink = [0]*n
+if n > 1:
+    drink = dp[0]+dp[1]
+if n > 2:
+    drink[2] = max(dp[2]+dp[1], dp[2]+dp[0], drink[1])
 
-for i in range(A):
+# [11053] 가장 긴 증가하는 부분 수열
+n = int(input())
+data = list(map(int, input().split()))
+dp = [1]*n
+for i in range(n):
     for j in range(i):
-        if Ai[j] < Ai[i]:
+        if data[j] < data[i]:
             dp[i] = max(dp[i], dp[j]+1)
 print(max(dp))
 
 # [11055] 가장 큰 바이토닉 부분 수열
-A = int(input())
-Ai = list(map(int, input().split()))
-dp = Ai[:]
-for i in range(A):
+n = int(input())
+data = list(map(int, input().split()))
+dp = data[:]
+for i in range(n):
     for j in range(i):
-        if Ai[i] > Ai[j]:
-            dp[i] = max(dp[i], dp[j]+Ai[i])
+        if data[i] > data[j]:
+            dp[i] = max(dp[i], dp[i]+data[i])
 print(max(dp))
