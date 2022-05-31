@@ -1,38 +1,24 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class B2751 {
-    static int list[];
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder();
 
         int n = input.nextInt();
 
-        list = new int[n+1];
+        ArrayList<Integer>list = new ArrayList<>();
         for (int i = 1; i<=n; i++) {
-            list[i] = input.nextInt();
+            list.add(input.nextInt());
         }
+        input.close();
 
-        int a;
+        Collections.sort(list);
 
-        for(int i = 1; i<=n; i++) {
-            a = list[i];
-            for (int j = 1; j<=n; j++) {
-                if(list[j] >= list[i]) {
-                    if(j == 1) {
-                        list[i] = list[j];
-                        list[j] = a;
-                        break;
-                    }
-                    list[i] = list[j-1];
-                    list[j-1] = a;
-                    break;
-                }
-            }
+        for (int i : list) {
+            sb.append(i).append('\n');
         }
-
-        for(int i = 0; i<n; i++) {
-            System.out.println(list[i+1]);
-        }
+        System.out.println(sb);
     }
 }
