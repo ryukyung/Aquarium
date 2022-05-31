@@ -6,22 +6,20 @@ public class B1699 {
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
+        input.close();
         dp = new Integer[n+1];
 
-        System.out.println(C(n));
-    }
-    static int C(int n) {
-        if(dp[n] == null) {
-            if (Math.sqrt(n)%1 == 0) {
-                dp[n] = 1;
-                return dp[n];
-            }
-            else {
-                int a = (int)Math.sqrt(n);
-                dp[n] = C(n-(a*a)) + 1;
-                return dp[n];
+        dp[0] = 0;
+
+        for (int i = 1; i<=n; i++) {
+            dp[i] = i;
+            for(int j = 1; j*j <= i; j++) {
+                if(dp[i] > dp[i-(j*j)]+1) {
+                    dp[i] = dp[i-(j*j)] +1;
+                }
             }
         }
-        return dp[n];
+
+        System.out.println(dp[n]);
     }
 }
