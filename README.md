@@ -1,21 +1,30 @@
-# 🐋Aquarium
+## 🐋 공부 순서
 
-### 🦈참여자
-  - 류경혜 [ryukyung](https://github.com/ryukyung/)
-  - 이정현 [hamon1](https://github.com/hamon1/)
+준비 단계를 통해서 해당 언어의 문법에 대한 공부와 문제에 대한 감을 잡습니다. 빠르게 공부를 끝내고 싶다면 🐟돛새치로 넘어가서 알고리즘 공부와 함께 문제를 풀면 됩니다.
 
+천천히 배우고 싶다면 ⭐️불가사리로 넘어가서 백준 1~12단계의 문제를 풀어보고 알고리즘 유형에 대해서 공부를 하고 🐟돛새치로 넘어가면 됩니다.
 
-### 🐬 무엇을 하는가
- - Python, Java OR JavaScript
+information에 있는 자료들은 전부 추가적인 자료이기 때문에 선택적으로 풀면 됩니다.
 
-### 🦈어떻게 하는가
- 1. 주어진 과제 수행
- 2. 작성한 코드를 관련 폴더에 저장
- 3. 저장한 파일을 개인별 fork한 repo의 main으로 push
- 4. 개인별 깃허브 repo에 push된 main branch를 스터디 저장소의 main branch로 pr을 보낸다
- 5. 반복
+한 문제를 여러 가지 방법으로 풀도록 탐구해 보고 30분~1시간 정도 고민하길 바랍니다. 어떤 방법으로 접근해야 할지 모르겠다면 솔루션을 찾아보는데 문제 풀이의 흔적을 남기기 위해 자신의 솔루션을 아주 조금이라도 업로드하는 게 좋을 것 같습니다.
 
-### 🐬주의사항
-1. 코드 작업 전과 후에 최신화 시키기
-2. 다른 사람의 폴더를 절대로 삭제하지 않기
-3. pull은 원본 레포지토리를, push는 fork한 개인 레포지토리를 이용하기
+## 🐢 참고
+[GITHUB](https://github.com/MinJunKimKR/154Algoritm-5weeks)
+
+[알고리즘 초보에서 벗어나기 위한 여정](https://claudiajkang.medium.com/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B4%88%EB%B3%B4%EC%97%90%EC%84%9C-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%97%AC%EC%A0%95-1ffb6bdfec6b)
+
+## 🐬 순서
+
+[🐋 준비 단계](https://www.notion.so/b362d4dfd1c540ca9753f46eb6ffcf49)
+
+[⭐️ 불가사리](https://www.notion.so/31702d58ccc3465fb340f7fad52d430b)
+
+[🐟 돛새치](https://www.notion.so/8d9ad39e988f40a787b31b7c8a88890c)
+
+## 🦭 Information
+
+[BaekJoon](https://www.notion.so/BaekJoon-59d71a3cdb02471088373629d1d6a1e3)
+
+[프로그래머스](https://www.notion.so/6e8de2d9b3da49e4934d43dee37399bb)
+
+[추가적인 곳](https://www.notion.so/2aa100ab8b254b1185eed2d67bbe81ad)
