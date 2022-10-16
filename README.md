@@ -16,16 +16,16 @@ information에 있는 자료들은 전부 추가적인 자료이기 때문에 �
 
 ### 🐬 순서
 
-- [🐋 준비 단계](https://www.notion.so/b362d4dfd1c540ca9753f46eb6ffcf49)
+- [🐋 준비 단계](https://studyinfo.notion.site/52354dca285d40d692b6fde4ae9defb7)
 
-- [⭐️ 불가사리](https://www.notion.so/31702d58ccc3465fb340f7fad52d430b)
+- [⭐️ 불가사리](https://studyinfo.notion.site/407e7d3c95694650b1914b51928da34d)
 
-- [🐟 돛새치](https://www.notion.so/8d9ad39e988f40a787b31b7c8a88890c)
+- [🐟 돛새치](https://studyinfo.notion.site/439ef8bb2eb7477d9e48f5324afd46a1)
 
 ### 🦭 Information
 
-- [BaekJoon](https://www.notion.so/BaekJoon-59d71a3cdb02471088373629d1d6a1e3)
+- [BaekJoon](https://studyinfo.notion.site/BaekJoon-9bf3dd7cfd3b42a6bc0462c21f1a92e9)
 
-- [프로그래머스](https://www.notion.so/6e8de2d9b3da49e4934d43dee37399bb)
+- [프로그래머스](https://studyinfo.notion.site/9aaa0cad96b44ca48cc706f70c6cc53d)
 
-- [추가적인 곳](https://www.notion.so/2aa100ab8b254b1185eed2d67bbe81ad)
+- [추가적인 곳](https://studyinfo.notion.site/84d0b0999b014f93b7531d1c0c5494b3)
